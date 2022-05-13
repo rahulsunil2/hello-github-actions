@@ -1,4 +1,4 @@
-FROM debian:stretch-20211201-slim
+FROM debian:stretch-20220509-slim
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
